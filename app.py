@@ -1,10 +1,3 @@
-import pandas as pd
-import ast
-import streamlit as st
-from openai.embeddings_utils import cosine_similarity
-
-openai.api_key =  st.secrets["mykey"]
-
 import ast
 import pandas as pd
 import streamlit as st
